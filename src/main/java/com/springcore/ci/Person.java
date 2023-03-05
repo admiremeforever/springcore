@@ -13,7 +13,7 @@ public class Person {
 
 	@Override
 	public String toString() {
-		return this.name + " : " + this.personId + " : " + this.certi.getName();
+		return this.name + " : " + this.personId + "{this.certi.getName()} ";
 	}
 
 }
