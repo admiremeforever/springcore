@@ -19,6 +19,6 @@
 		<value>Delhi</value>
 	</util:list>
 
-
+<bean class="com.springcore.streotype.Teacher" name="teacher" ></bean>
 </beans>
 
