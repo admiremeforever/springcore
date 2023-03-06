@@ -13,6 +13,7 @@ public class Test {
 
 		Emp emp1 = (Emp) context.getBean("emp1");
 		System.out.println(emp1);
+		System.out.println(emp1.getPhones().getClass().getName());
 
 	}
 
